@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.header__logo {
+  height: 50px;
+}
+.header__links {
+  display: flex;
+}
+.header__links p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #FF6060;
+  padding: 0px 10px;
+}
+.header__links p:nth-child(1) {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}/*# sourceMappingURL=Header.css.map */

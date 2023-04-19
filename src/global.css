@@ -1,0 +1,9 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    width: 90%;
+    max-width: 1240px;
+    margin: auto;
+}
