@@ -1,24 +1,49 @@
-.container {
-    width: 100%;
-    background-color: #F7F7F7;
-    border-radius: 20px;
 
-    & .card {
-        width: 340px;
-        height: 340px;
-        position: relative;
+// Container <article> qui compose ma card
+.card {
+    width: 340px;
+    height: 340px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        // On ajoute un léger dégradé au noir en bas pour la lisibilité du texte
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+        z-index: 1;
 
-        &__cover {
-            width: 100%;
-            height: 100%;
-        }
-
-        &__title {
-            z-index: 5;
-            position: absolute;
-            top: 0;
-            left: 0;
-
-        }
     }
+
+    // Le lien qui englobe le contenu (pour être cliquable)
+    &__link {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    
+    // L'image de couverture de la card
+    &__cover {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        object-fit: cover;
+    }
+
+    // Le titre de la card
+    &__title {
+        position: absolute;
+        bottom: 20px;
+        left: 10px;
+        color: white;
+        font-size: 1em;
+        z-index: 2;
+    }
+    
 }

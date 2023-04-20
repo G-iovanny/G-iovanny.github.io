@@ -1,9 +1,30 @@
 * {
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+        padding: 0px;
 }
 
 body {
     width: 90%;
     max-width: 1240px;
     margin: auto;
+}
+/* La section contenant les cards dans la page d'accueil */
+.home__section {
+    background-color: #F7F7F7;
+    border-radius: 20px;
+    margin-top: 40px;
+    padding-top: 25px;
+}
+
+.home__section ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.home__section li {
+    padding: 30px 20px 30px 20px;
 }

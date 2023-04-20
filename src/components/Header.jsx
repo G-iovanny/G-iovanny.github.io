@@ -1,9 +1,9 @@
 import React from 'react';
 import Logo from '../images/LOGO.png';
+import "../styles/Header/Header.css";
 
 function Header() {
-    return (
-        
+    return (  
         <nav className="header">
             <img src={Logo} alt={Logo} className="header__logo"/>
             <div className="header__links">
