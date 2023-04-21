@@ -11,19 +11,25 @@
     // <ul>
     &__links {
         display: flex;
+        }
 
-        & p {
+    //<Link></Link>
+    &__link {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        color: #FF6060;
+        padding: 0px 10px;
+        text-decoration: none;
+
+        &.active {
             font-style: normal;
             font-weight: 500;
             font-size: 20px;
             color: #FF6060;
             padding: 0px 10px;
-
-            &:nth-child(1) {
-                text-decoration: underline;
-                text-underline-offset: 3px;
-
-            }
+            text-decoration: underline;
+            text-underline-offset: 3px;
         }
     }
 }

@@ -10,14 +10,20 @@
 .header__links {
   display: flex;
 }
-.header__links p {
+.header__link {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   color: #FF6060;
   padding: 0px 10px;
+  text-decoration: none;
 }
-.header__links p:nth-child(1) {
+.header__link.active {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #FF6060;
+  padding: 0px 10px;
   text-decoration: underline;
   text-underline-offset: 3px;
 }/*# sourceMappingURL=Header.css.map */
