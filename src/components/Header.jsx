@@ -11,7 +11,7 @@ function Header() {
         <nav className="header">
             <img src={Logo} alt={Logo} className="header__logo"/>
             <div className="header__links">
-                <Link to="/home" className={location.pathname === "/home" ? "header__link active" : "header__link"}>Accueil</Link>
+                <Link to="/home" className={location.pathname === "/home" || location.pathname === "/" ? "header__link active" : "header__link"}>Accueil</Link>
                 <Link to="/about" className={location.pathname === "/about" ? "header__link active" : "header__link"}>A propos</Link>
             </div>
         </nav>

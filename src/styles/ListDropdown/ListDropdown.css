@@ -1,0 +1,42 @@
+.listDropdown {
+  margin: 25px auto;
+  width: 100%;
+  max-width: 1024px;
+  overflow: hidden;
+}
+.listDropdown__containerTitle {
+  color: white;
+  background-color: #FF6060;
+  border-radius: 5px;
+  padding: 7px 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+.listDropdown__title {
+  font-size: 1.4em;
+}
+.listDropdown__icon {
+  margin-right: 15px;
+  width: 22px;
+  transition: transform 0.3s;
+}
+.listDropdown__icon.active {
+  transform: rotate(180deg);
+}
+.listDropdown__containerEquipment {
+  background-color: #F6F6F6;
+  color: #FF6060;
+  border-radius: 0px 0px 5px 5px;
+  padding: 20px 15px 15px 15px;
+}
+.listDropdown__equipment {
+  font-family: "Montserrat";
+  font-size: 1.1em;
+  font-weight: 200;
+  line-height: 28px;
+  list-style-type: none;
+}/*# sourceMappingURL=ListDropdown.css.map */

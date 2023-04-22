@@ -1,6 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import ReactDOM from "react-dom/client";
 
 import "./global.css";
 import AppRouter from "./Routers";

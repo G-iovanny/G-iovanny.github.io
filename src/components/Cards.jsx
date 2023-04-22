@@ -1,18 +1,16 @@
 import React from 'react';
 import '../styles/Cards/cards.css'
-/* import { Link } from 'react-router-dom' */
+import { Link } from 'react-router-dom'
 
 
 function Cards ({ product }) {
      return (
-
-        <article className="card">
-            <a href="test" className="card__link">
+        <Link to={ `/product/${ product.id }` } className="card__link">
+            <article className="card">
                 <img src={product.cover} className="card__cover" alt={product.title}></img>
                 <h2 className="card__title">{product.title}</h2>
-            </a>
-        </article>  
-
+            </article>
+        </Link> 
     )
 }
 

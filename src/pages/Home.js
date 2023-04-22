@@ -7,7 +7,11 @@ function Home() {
   return (
     <div>
       <Header />
-      <Banner />
+      <Banner
+        titre="Chez vous, partout ailleurs"
+        source={require("../images/background.png")}
+        textAlt="Bannière d'accueil"
+      />
       <section className="home__section">
         <ul>
           {data.map((product) => (
