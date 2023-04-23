@@ -28,3 +28,9 @@ body {
 .home__section li {
     padding: 30px 20px 30px 20px;
 }
+/*La section de la description et de la liste des équipements*/
+.product__infos {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
