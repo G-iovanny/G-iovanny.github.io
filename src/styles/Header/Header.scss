@@ -17,18 +17,18 @@
     //<Link></Link>
     &__link {
         font-style: normal;
-        font-weight: 500;
+        font-weight: 400;
         font-size: 20px;
         color: #FF6060;
-        padding: 0px 10px;
+        padding: 0px 30px;
         text-decoration: none;
 
         &.active {
             font-style: normal;
-            font-weight: 500;
+            font-weight:400;
             font-size: 20px;
             color: #FF6060;
-            padding: 0px 10px;
+            padding: 0px 30px;
             text-decoration: underline;
             text-underline-offset: 3px;
         }

@@ -30,7 +30,6 @@ body {
 }
 /* POUR LA PAGE PRODUIT */
 
-/*Tout le premier container (nom, host, location, étoiles, tags*/
 .product__description {
     display: flex;
     justify-content: space-between;
@@ -49,7 +48,7 @@ body {
 
 .product__title {
     font-size: 2.3em;
-    font-weight: 800;
+    font-weight: 500;
     color: #FF6060;
     padding-bottom: 5px;
 }
@@ -58,7 +57,7 @@ body {
     display: block;
     font-size: 1.2em;
     color: #FF6060;
-    font-weight: lighter;
+    font-weight: 500;
 }
 
 .product__containerTags {
@@ -82,7 +81,7 @@ body {
 .product__hostName {
     font-size: 1.2em;
     color: #FF6060;
-    font-weight: lighter;
+    font-weight: 500;
     padding-right: 10px;
 }
 
@@ -103,4 +102,30 @@ body {
     display: flex;
     justify-content: space-between;
     width: 200px;
+}
+/* POUR LA PAGE ERROR 404 */
+.error__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FF6060;
+}
+
+.error__container h2 {
+    font-size: calc(288px + 1vw);
+    font-weight: 700;
+}
+
+.error__container p {
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.error__return {
+    font-size: 18px;
+    font-weight: 500;
+    color: #FF6060;
+    margin-top: 100px;
 }

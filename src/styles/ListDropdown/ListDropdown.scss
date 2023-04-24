@@ -24,6 +24,7 @@ $primaryColor : #FF6060;
     // Le titre
     &__title {
         font-size: 1.4em;
+        font-weight: 500;
     }
 
     // L'icone pour rétracter
@@ -50,7 +51,7 @@ $primaryColor : #FF6060;
     &__equipment {
         font-family: "Montserrat";
         font-size: 1.1em;
-        font-weight: 200;
+        font-weight: 400;
         line-height: 28px;
         list-style-type: none;
     }
