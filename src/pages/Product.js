@@ -7,6 +7,7 @@ import Tag from "../components/Tag";
 
 import starGrey from "../images/star-grey.svg";
 import starOrange from "../images/star-orange.svg";
+import Carousel from "../components/Carousel";
 
 function Product() {
   const location = useLocation();
@@ -36,6 +37,10 @@ function Product() {
   return (
     <div>
       <Header />
+      <div className="carousel__container">
+        <Carousel pictures={product.pictures} />
+      </div>
+
       <section className="product__description">
         <div className="product__desc1">
           <h2 className="product__title">{product.title}</h2>
