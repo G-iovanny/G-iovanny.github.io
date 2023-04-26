@@ -1,0 +1,50 @@
+/* POUR LA PAGE D'ACCUEIL */
+.home__section {
+    background-color: #F7F7F7;
+    border-radius: 20px;
+    margin-top: 40px;
+    padding-top: 25px;
+}
+
+.home__section ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.home__section li {
+    padding: 30px 20px 30px 20px;
+}
+
+@media screen and (max-width: 850px) {
+
+    .home__section {
+        margin: 0;
+        width: 100%;
+        background-color: transparent;
+    }
+
+    .home__section ul {
+        flex-direction: column;
+    }
+
+    .home__section ul,
+    .home__section li {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .home__section article {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .home__section article {
+        height: 250px;
+    }
+}

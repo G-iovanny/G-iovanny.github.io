@@ -1,9 +1,12 @@
+import "../styles/PAGES/_product.css";
+
 import { useLocation } from "react-router-dom";
 import Header from "../components/Header";
 import data from "../data/data.json";
 import ListDropdown from "../components/ListDropdown";
 import Dropdown from "../components/Dropdown";
 import Tag from "../components/Tag";
+import Footer from "../components/Footer";
 
 import starGrey from "../images/star-grey.svg";
 import starOrange from "../images/star-orange.svg";
@@ -73,6 +76,7 @@ function Product() {
         <Dropdown title="Description" description={product.description} />
         <ListDropdown product={product} />
       </section>
+      <Footer />
     </div>
   );
 }

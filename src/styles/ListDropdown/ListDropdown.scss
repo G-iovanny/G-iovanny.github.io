@@ -56,3 +56,18 @@ $primaryColor : #FF6060;
         list-style-type: none;
     }
 }
+
+@media screen and (max-width: 580px) {
+
+    .listDropdown {
+        
+        &__title {
+            font-size: 13px;
+        }
+
+        &__equipment {
+        font-size: 12px;
+        line-height: 20px;
+        }
+    }
+}

@@ -6,7 +6,7 @@
     margin-bottom: 60px;
 
     &__logo {
-        height: 50px;
+        height: 62px;
     }
 
     // <ul>
@@ -18,7 +18,7 @@
     &__link {
         font-style: normal;
         font-weight: 400;
-        font-size: 20px;
+        font-size: 24px;
         color: #FF6060;
         padding: 0px 30px;
         text-decoration: none;
@@ -26,11 +26,22 @@
         &.active {
             font-style: normal;
             font-weight:400;
-            font-size: 20px;
+            font-size: 24px;
             color: #FF6060;
             padding: 0px 30px;
             text-decoration: underline;
             text-underline-offset: 3px;
         }
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .header__logo {
+        height: 43px;
+    }
+
+    .header__link, .header__link.active {
+        font-size: 12px;
+        padding: 10px;
     }
 }

@@ -34,7 +34,6 @@ export const rightArrowStyles = {
   transform: "translate(0, -50%)",
   right: "0px",
   paddingRight: "32px",
-  fontSize: "45px",
   color: "white",
   zIndex: "1",
   cursor: "pointer",
@@ -43,9 +42,8 @@ export const rightArrowStyles = {
 export const numberPictures = {
   position: "absolute",
   bottom: "0px",
-  color: "white",
-  fontSize: "20px",
   width: "100%",
   textAlign: "center",
   paddingBottom: "32px",
+  color: "white",
 };

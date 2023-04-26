@@ -25,7 +25,22 @@
   font-size: 2.5em;
   font-weight: 500;
   z-index: 2;
+  text-align: center;
 }
 .banner__img {
   position: absolute;
+}
+
+@media screen and (max-width: 850px) {
+  .banner__title {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .banner {
+    height: 111px;
+  }
+  .banner__title {
+    font-size: 18px;
+  }
 }/*# sourceMappingURL=banner.css.map */

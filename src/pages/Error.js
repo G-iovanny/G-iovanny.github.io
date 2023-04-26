@@ -1,5 +1,8 @@
+import "../styles/PAGES/_Error.css";
+
 import Header from "../components/Header";
 import { Link } from "react-router-dom";
+import Footer from "../components/Footer";
 
 function Error() {
   return (
@@ -12,6 +15,7 @@ function Error() {
           Retourner sur la page d'accueil
         </Link>
       </div>
+      <Footer />
     </div>
   );
 }

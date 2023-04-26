@@ -23,7 +23,7 @@ $primaryColor : #FF6060;
 
     // Le titre
     &__title {
-        font-size: 18px;
+        font-size: 1.4em;
         font-weight: 500;
     }
 
@@ -48,8 +48,21 @@ $primaryColor : #FF6060;
 
     &__text {
         font-family: "Montserrat";
-        font-size: 1.1em;
+        font-size: 18px;
         font-weight: 400;
         line-height: 28px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+
+    .dropdown {
+        &__title {
+            font-size: 13px;
+        }
+        &__text {
+        font-size: 12px;
+        line-height: 20px;
+        }
     }
 }

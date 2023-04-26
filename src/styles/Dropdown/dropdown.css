@@ -17,7 +17,7 @@
   cursor: pointer;
 }
 .dropdown__title {
-  font-size: 18px;
+  font-size: 1.4em;
   font-weight: 500;
 }
 .dropdown__icon {
@@ -36,7 +36,17 @@
 }
 .dropdown__text {
   font-family: "Montserrat";
-  font-size: 1.1em;
+  font-size: 18px;
   font-weight: 400;
   line-height: 28px;
+}
+
+@media screen and (max-width: 580px) {
+  .dropdown__title {
+    font-size: 13px;
+  }
+  .dropdown__text {
+    font-size: 12px;
+    line-height: 20px;
+  }
 }/*# sourceMappingURL=dropdown.css.map */
