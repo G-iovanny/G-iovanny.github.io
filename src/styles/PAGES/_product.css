@@ -3,6 +3,7 @@
 .product__description {
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 }
 
 .product__infos {
