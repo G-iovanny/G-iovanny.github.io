@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/G-iovanny/G-iovanny.github.io.git/static/css/main.c73f1094.css",
+    "main.js": "/G-iovanny/G-iovanny.github.io.git/static/js/main.577cb1c9.js",
+    "static/media/background_about.png": "/G-iovanny/G-iovanny.github.io.git/static/media/background_about.a01d5f84a6d5e4975fdf.png",
+    "static/media/background.png": "/G-iovanny/G-iovanny.github.io.git/static/media/background.c080c3d8ee5198bdd5b2.png",
+    "index.html": "/G-iovanny/G-iovanny.github.io.git/index.html",
+    "static/media/star-grey.svg": "/G-iovanny/G-iovanny.github.io.git/static/media/star-grey.68fd8a1ead5375bd59bb6ae0b633ffd3.svg",
+    "static/media/star-orange.svg": "/G-iovanny/G-iovanny.github.io.git/static/media/star-orange.30b8963e66a47777ef47296f505567be.svg",
+    "main.c73f1094.css.map": "/G-iovanny/G-iovanny.github.io.git/static/css/main.c73f1094.css.map",
+    "main.577cb1c9.js.map": "/G-iovanny/G-iovanny.github.io.git/static/js/main.577cb1c9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c73f1094.css",
+    "static/js/main.577cb1c9.js"
+  ]
+}
