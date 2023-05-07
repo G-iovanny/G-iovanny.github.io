@@ -7,6 +7,7 @@ import ListDropdown from "../components/ListDropdown";
 import Dropdown from "../components/Dropdown";
 import Tag from "../components/Tag";
 import Footer from "../components/Footer";
+import Error from "../pages/Error";
 
 import starGrey from "../images/star-grey.svg";
 import starOrange from "../images/star-orange.svg";
@@ -16,6 +17,10 @@ function Product() {
   const location = useLocation();
   const id = location.pathname.split("/").pop();
   const product = data.find((product) => product.id === id);
+
+  if (!product) {
+    return <Error />;
+  }
 
   // Pour filtrer le prénom et le nom
   const fullName = product.host.name;
